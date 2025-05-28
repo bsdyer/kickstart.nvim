@@ -91,7 +91,12 @@ vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
 
 -- Set to true if you have a Nerd Font installed and selected in the terminal
+<<<<<<< Updated upstream
 vim.g.have_nerd_font = false
+=======
+vim.g.have_nerd_font = true
+vim.o.guifont = "Hasklug Nerd Font:h10"
+>>>>>>> Stashed changes
 
 -- [[ Setting options ]]
 -- See `:help vim.o`
